@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 750px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#balance {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+#transactions li {
+  background-color: #e7f0ff;
+  border: 1px solid #007bff;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  list-style: none;
+}
+#transactions li.negative {
+  background-color: #ffe6e6;
+  border-color: #ff4d4d;
+}
+#transactions li.positive {
+  background-color: #e6ffe6;
+  border-color: #4dff4d;
+}
